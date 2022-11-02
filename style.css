@@ -84,3 +84,19 @@ button {
   left:100x;
 
 }
+
+
+.refreshCreate {
+  background: rgb(242,138,178);
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: none;
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+  position: relative;
+  top: 80px;
+  left:100x;
+
+}
