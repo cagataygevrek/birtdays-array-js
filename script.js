@@ -66,6 +66,16 @@ buttonCreate.addEventListener("click", () => {
   cardlar.forEach((e) => {
     e.innerHTML = "";
   });
+
+  let refreshCreate = document.createElement("button");
+  refreshCreate.textContent = "Sayfayı Yenile";
+  refreshCreate.classList.add("refreshCreate");
+  refreshCreate.onclick = function () {
+    document.querySelector("#root").insertAdjacentHTML =
+      window.location.reload();
+  };
+  rootSelect.appendChild(refreshCreate);
+  buttonCreate.style.display = "none";
 });
 
 buttonCreate.addEventListener("click", () => {
